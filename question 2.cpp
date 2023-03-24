@@ -1,15 +1,9 @@
 #include<stdio.h>
-#include<conio.h>
 int main()
 {
-	int i=3,val;
-	val= sizeof (i)+ +f(i=1)+ +f(i-1);
-	printf("%d%d",val,i);
-	
-}
-{
-	int f(int num)
-	{
-		return num*5;
-	}
+	char x;
+	printf("enter the character\n");
+	scanf("%c",&x);
+	(x>='a' && x<'z')||(x>='A' && x<'Z')?printf("alphabet"):printf("not alphabet");
+	return 0;
 }

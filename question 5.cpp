@@ -1,15 +1,15 @@
-int main()
+#include<stdio.h>
+int tmp=20; 
+main()
 {
-	int c[]={2,8,3,4,4,6,7,5};
-	int  j,p=c,q=c;
-	for(j=0;j<5;j++)
-	{
-		printf("%d",q);
-		++q;
-	}
-	for(j=0;j<5;j++)
-	{
-		printf("%d",p);
-		++p;
-			}
+	printf("%d",tmp);
+	func();
+	printf("%d",tmp);
+	
 }
+func();
+{
+	static in tmp=10;
+	printf("%d",&tmp);
+}
+

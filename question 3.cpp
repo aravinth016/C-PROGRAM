@@ -1,15 +1,13 @@
 #include<stdio.h>
-#include<conio.h>
-float avg(float,float,float);
 int main()
 {
-      float p=1,q=2,r=-2,a;
-	  a=avg(p,(q=4,r=-12,q),r);
-	  printf("%f",a);	
-}
-
-	float avg(float x,float y,float z)
+	int i,n,sum=0;
+	printf("enter upper limit ");
+	scanf("%d",&n);
+	for(i=1;i<=n;i+=2)
 	{
-		return(x+y+z)/3;
+		sum+=i;
 	}
-
+	printf("sum of the odd number=%d",sum);
+	return 0;
+}
